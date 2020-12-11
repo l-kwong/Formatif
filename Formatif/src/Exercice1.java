@@ -22,7 +22,7 @@ public class Exercice1
 				int somme=0;
 				for(int numero:myTab)
 					somme=somme+numero;
-				System.out.println("Somme égale " + somme);
+				System.out.println("Somme égale " + somme); 
 			}
 
 	}
