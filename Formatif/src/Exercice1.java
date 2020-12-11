@@ -14,10 +14,15 @@ public class Exercice1
 				{
 					myTab[i]=(int)(Math.random()*(i+1));
 				}
+				for (int i : myTab) 
+				{
+					System.out.println(i);
+				}
 				
 				int somme=0;
-				somme= myTab[i];
-				System.out.println(somme);
+				for(int numero:myTab)
+					somme=somme+numero;
+				System.out.println("Somme égale " + somme);
 			}
 
 	}
