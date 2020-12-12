@@ -18,11 +18,12 @@ public class Exercice1
 				{
 					System.out.println(i);
 				}
-				
+					
 				int somme=0;
 				for(int numero:myTab)
 					somme=somme+numero;
 				System.out.println("Somme égale " + somme);  
+					
 			}
 
 	}
